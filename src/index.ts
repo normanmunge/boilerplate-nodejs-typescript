@@ -1,6 +1,3 @@
-// const express = require('express');
-// const dotenv = require('dotenv');
-
 import express, { Express, Request, Response } from 'express';
 import dotenv from 'dotenv';
 
