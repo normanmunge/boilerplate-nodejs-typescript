@@ -45,6 +45,27 @@ Run the command `npm init -y` to create a `package.json` file.
 }
 }
 
+# Installing Other Dependencies
+
+- The following libraries defined in your `package.json` are optional:
+
+1. Axios - To call a route from another server eg mailgun server
+2. Bcrypt - Encrypting and decrypting your data
+3. Body-parser - Converting data into JSON format
+4. Cors - Security mechanism that enables HTTP requests from browser
+5. Express-validator - Security mechanism for validating data from client
+6. Helmet - Security mechanism to add extra security protocols to your project
+7. Http-errors - Enabling easier error handling for your routes
+8. Jsonwebtoken - For token based authentication
+9. Knex - ORM for your data models
+10. Knex-paginate - Enabling pagination of data coming from database
+11. PG - Postgres relational database
+12. Mocha - Framework for automated testing
+13. Chai - Framework for automated testing
+14. Sinon - Framework for automated testing
+
+- Incase they aren't needed in your project, you can uninstall them by running `npm uninstall package-name`
+
 # Resources
 
 For a more detailed explanation, refer to this article: [https://blog.logrocket.com/how-to-set-up-node-typescript-express/]
